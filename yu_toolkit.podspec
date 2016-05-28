@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "cocoa util class"
 
   s.homepage     = "https://github.com/cosina1985/yu_lib"
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = { :type => 'MIT', :file => 'License' }
   s.author             = { "yubenyi" => "cosina1985@gmail.com" }
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
