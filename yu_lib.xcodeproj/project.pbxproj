@@ -13,7 +13,8 @@
 		58164E2D1CF998EA00FD7C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58164E2B1CF998EA00FD7C35 /* Main.storyboard */; };
 		58164E2F1CF998EA00FD7C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58164E2E1CF998EA00FD7C35 /* Assets.xcassets */; };
 		58164E321CF998EA00FD7C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58164E301CF998EA00FD7C35 /* LaunchScreen.storyboard */; };
-		58164E3C1CF99A2900FD7C35 /* NSDate+yuAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58164E3B1CF99A2900FD7C35 /* NSDate+yuAdd.m */; };
+		58164E3E1CF9AE4100FD7C35 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 58164E3D1CF9AE4100FD7C35 /* License */; };
+		58164E411CF9B4C200FD7C35 /* NSDate+yuAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58164E401CF9B4C200FD7C35 /* NSDate+yuAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		58164E2E1CF998EA00FD7C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58164E311CF998EA00FD7C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58164E331CF998EA00FD7C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58164E3A1CF99A2900FD7C35 /* NSDate+yuAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+yuAdd.h"; sourceTree = "<group>"; };
-		58164E3B1CF99A2900FD7C35 /* NSDate+yuAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+yuAdd.m"; sourceTree = "<group>"; };
+		58164E3D1CF9AE4100FD7C35 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		58164E3F1CF9B4C200FD7C35 /* NSDate+yuAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+yuAdd.h"; sourceTree = "<group>"; };
+		58164E401CF9B4C200FD7C35 /* NSDate+yuAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+yuAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		58164E161CF998EA00FD7C35 = {
 			isa = PBXGroup;
 			children = (
+				58164E3D1CF9AE4100FD7C35 /* License */,
 				58164E211CF998EA00FD7C35 /* yu_lib */,
 				58164E201CF998EA00FD7C35 /* Products */,
 			);
@@ -86,8 +89,8 @@
 		58164E391CF99A0200FD7C35 /* class */ = {
 			isa = PBXGroup;
 			children = (
-				58164E3A1CF99A2900FD7C35 /* NSDate+yuAdd.h */,
-				58164E3B1CF99A2900FD7C35 /* NSDate+yuAdd.m */,
+				58164E3F1CF9B4C200FD7C35 /* NSDate+yuAdd.h */,
+				58164E401CF9B4C200FD7C35 /* NSDate+yuAdd.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				58164E321CF998EA00FD7C35 /* LaunchScreen.storyboard in Resources */,
 				58164E2F1CF998EA00FD7C35 /* Assets.xcassets in Resources */,
+				58164E3E1CF9AE4100FD7C35 /* License in Resources */,
 				58164E2D1CF998EA00FD7C35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,8 +168,8 @@
 			files = (
 				58164E2A1CF998EA00FD7C35 /* ViewController.m in Sources */,
 				58164E271CF998EA00FD7C35 /* AppDelegate.m in Sources */,
+				58164E411CF9B4C200FD7C35 /* NSDate+yuAdd.m in Sources */,
 				58164E241CF998EA00FD7C35 /* main.m in Sources */,
-				58164E3C1CF99A2900FD7C35 /* NSDate+yuAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
